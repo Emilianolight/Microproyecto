@@ -1,0 +1,113 @@
+html,
+body {
+    color: black;
+    font-family: 'Opens Sans', helvetica;
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+}
+
+.portada {
+    
+   background-color: black;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+
+}
+
+.boton {
+    
+gap:10px;
+    margin: 55px 1px 10px 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+    display: inline-block;
+    background-color: #5cb85c;
+    color: honeydew;
+
+}
+
+.info {
+    display: grid;
+
+    grid-template-areas: "area1 "
+                         "area2 "
+                         "area3 ";
+
+   
+}
+
+.hab1{
+    margin: 0px;
+    padding: 0px;
+    grid-area: area1;
+font-family: fantasy;
+color: white;
+-webkit-text-stroke: 2px black;
+font-size: 50px;
+background-color: teal;
+text-align: left;
+height: 200px;
+width: 60%;
+border-bottom-right-radius: 600px;
+border-top-right-radius: 600px;
+
+}
+
+
+.hab2{
+    margin: 0px;
+    padding: 0px;
+    grid-area: area2;
+font-family: fantasy;
+color: white;
+-webkit-text-stroke: 2px black;
+font-size: 50px;
+background-color: rgba(19, 151, 228, 0.986);
+text-align: left;
+border-bottom-right-radius: 600px;
+border-top-right-radius: 600px;
+height: 200px;
+width: 40%;
+}
+
+
+.hab3{
+    margin: 0px;
+    padding: 0px;
+    grid-area: area3;
+font-family: fantasy;
+color: white;
+-webkit-text-stroke: 2px black;
+font-size: 50px;
+background-color: yellow;
+text-align: left;
+border-bottom-right-radius: 600px;
+border-top-right-radius: 600px;
+height: 200px;
+width: 20%;
+}
+
+
+.parrafo{
+font-size: 40px;
+color: white;
+-webkit-text-stroke: 2px black;
+font-family: fantasy;
+
+
+
+
+
+
+
+}
+
+
+

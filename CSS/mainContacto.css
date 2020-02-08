@@ -1,0 +1,52 @@
+html, body {
+    color: black;
+    font-family: 'Opens Sans', helvetica;
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+
+}
+
+.portada {
+    background-color: rgba(99, 128, 207, 0.74);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+
+}
+
+
+.boton{
+    gap:10px;
+    margin: 55px 5px 10px 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+    display: inline-block;
+    background-color: #5cb85c;
+    color: honeydew;
+}
+
+.info{
+    text-align: left;
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    font-family: 'Opens Sans', helvetica;
+    -webkit-text-stroke: 2px black;
+    font-size: 50px;
+
+
+
+}
+.parrafo{
+    -webkit-text-stroke: 2px black;
+    text-align: left;
+font-size: 45px;
+
+
+
+}

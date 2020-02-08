@@ -1,0 +1,118 @@
+html,
+body {
+    color: black;
+    font-family: 'Opens Sans', helvetica;
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+}
+
+.portada {
+    
+   background-color: black;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+
+}
+
+.boton {
+    
+gap:10px;
+    margin: 55px 1px 10px 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+    display: inline-block;
+    background-color: #5cb85c;
+    color: honeydew;
+
+}
+
+.info {
+    display: grid;
+    grid-template-areas: "area1"
+                         "area2"
+                         "area3";
+    grid-row-gap: 20px;
+    background-color: black;
+
+}
+
+.titulos{
+    -webkit-text-stroke: 2px black;
+    color: white;
+    font-family: fantasy;
+    font-size: 100px;
+    padding-top: 0%;
+    padding-bottom: 0%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+
+}
+
+.proyecto1 {
+    grid-area: area1;
+    background-color: transparent;
+    height: 720px;
+    width: 100%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    background-attachment: fixed;
+    background-color: black;
+   
+    
+    
+    
+
+}
+
+
+.proyecto2 {
+    grid-area: area2;
+    background-color: transparent;
+    height: 650px;
+    width: 100%;
+    grid-row-gap: 20px;
+    padding-bottom: 0px;
+    
+    margin-top: 0%;
+    margin-bottom: 0px;
+    background-color: black;
+    
+}
+
+.proyecto3 {
+    margin-top: 0%;
+    grid-area: area3;
+    background-color: transparent;
+    height: 680px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: "texto img"
+                            "texto img";
+                            
+                            margin-top: 0%;
+    margin-bottom: 0%;
+    padding-top: 0px;
+    background-color: black;
+
+}
+.parrafo{
+    background-color: black;
+
+    -webkit-text-stroke: 2px black;
+    color:white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 48px;
+    
+    margin-top: 0%;
+    margin-bottom: 0%;
+
+
+
+}
